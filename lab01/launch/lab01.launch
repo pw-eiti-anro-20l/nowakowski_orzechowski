@@ -1,0 +1,12 @@
+<launch>
+ <group ns="tursim">
+  <node pkg="turtlesim" name="sim" type="turtlesim_node">
+  </node>
+  <node pkg="lab01" name="controller" type="talker.py">
+        <param name="forward" value="t"/>
+	<param name="backward" value="g"/>
+    	<param name="left" value="f"/>
+    	<param name="right" value="h"/>
+   </node>
+ </group>
+</launch>
