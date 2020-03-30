@@ -54,7 +54,7 @@ def assign(key, controlKeys):
     return msg
 
 def controller():
-    pub = rospy.Publisher('turtle/cmd_vel', Twist, queue_size=10)
+    pub = rospy.Publisher('turtle1/cmd_vel', Twist, queue_size=10)
     rospy.init_node('controller', anonymous=True)
     rate = rospy.Rate(50) 
     stdcr = curses.initscr()

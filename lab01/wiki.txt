@@ -1,0 +1,15 @@
+Uruchomienie:
+
+Po przeniesieniu projektu do odpowiedniego folderu otworzyć nowy terminal i napisac:
+$ cd ~/catkin_ws
+$ source devel/setup.bash
+$ roslaunch lab01 lab01.launch
+
+Uruchomi się program z żółwikiem. W tym samym terminalu można nim sterować.
+
+Sterowanie:
+
+góra - t
+dół - g
+lewo - f
+prawo - h
